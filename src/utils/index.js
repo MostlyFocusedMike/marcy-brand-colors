@@ -4,6 +4,10 @@ import {
   CASLON_FONT,
   CASLON_FONT_ITALIC,
 } from '../constants';
+import diatypeUrl from '../assets/fonts/abcdiatype-medium-webfont.woff2';
+import diatypeItalicUrl from '../assets/fonts/abcdiatype-mediumitalic-webfont.woff2';
+import caslonUrl from '../assets/fonts/caslonionic-bold-webfont.woff2';
+import caslonItalicUrl from '../assets/fonts/caslonionic-bolditalic-webfont.woff2';
 
 export const copyToClipboard = (e) => {
   const { copyText } = e.target.dataset;
@@ -21,10 +25,10 @@ export const copyToClipboard = (e) => {
 // this is likely not the right way to do this
 export const preloadFonts = async () => {
   const fontFamilies = [
-    { name: CASLON_FONT, url: 'url(/fonts/caslonionic-bold-webfont.woff2)' },
-    { name: CASLON_FONT_ITALIC, url: 'url(/fonts/caslonionic-bolditalic-webfont.woff2)' },
-    { name: ABC_DIATYPE_FONT, url: 'url(/fonts/abcdiatype-medium-webfont.woff2)' },
-    { name: ABC_DIATYPE_FONT_ITALIC, url: 'url(/fonts/abcdiatype-mediumitalic-webfont.woff2' },
+    { name: CASLON_FONT, url: `url(${caslonUrl})` },
+    { name: CASLON_FONT_ITALIC, url: `url(${caslonItalicUrl})` },
+    { name: ABC_DIATYPE_FONT, url: `url(${diatypeUrl})` },
+    { name: ABC_DIATYPE_FONT_ITALIC, url: `url(${diatypeItalicUrl})` },
   ];
 
   const fontPromises = fontFamilies
