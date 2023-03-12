@@ -37,6 +37,7 @@ const makeColorListCards = (colorsArr, mainEl) => {
   colorsArr.forEach(makeColorCars);
 
   colorListEl.addEventListener('click', copyToClipboard);
+  return colorListEl;
 };
 
 export default makeColorListCards;
