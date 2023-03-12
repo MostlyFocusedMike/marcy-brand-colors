@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --marcyWhite: #FFFCF7;
+  --marcyBlack: #261F1D;
+  --gradient: #2c2725;
+  --marcyBlue: #2F5A8B;
+  --marcyLightGray: #E1E3E0;
+  --marcyOrange: #EF541E;
+  --marcyRed: #C92929;
+  --marcyYellow: #EEBC32;
+  --marcyGreen: #327A5F;
+
+  --textColor: #FFFCF7;
+}
+html, body {
+  font-family: 'ABC Diatype Medium', Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: radial-gradient(
+    var(--gradient) 0%,
+    var(--marcyBlack) 100%
+  );
+}

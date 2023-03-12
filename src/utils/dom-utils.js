@@ -23,7 +23,7 @@ export const makeH3 = (text, parentOrSelector, id, className) => (
 );
 
 export const makeCheckedInput = ({
-  parentOrSelector, id, className, fieldName, value, label, font, type = 'radio', isChecked = false,
+  parentOrSelector, id, className, fieldName, value, label, displayFont, type = 'radio', isChecked = false,
 }) => {
   if (!id || !parentOrSelector || !fieldName || !value || !label) throw new Error('Missing radio Args');
   const radioDiv = makeDiv(parentOrSelector, null, 'radio-div');
@@ -35,6 +35,6 @@ export const makeCheckedInput = ({
 
   const labelEl = makeTag('label', radioDiv, null, null, label);
   labelEl.htmlFor = id;
-  if (font) labelEl.style.fontFamily = font;
+  if (displayFont) labelEl.style.fontFamily = displayFont;
   return radioDiv;
 };

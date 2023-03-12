@@ -3,7 +3,7 @@ const colors = [
     id: 'blue',
     name: 'Blue',
     type: 'primary',
-    isDarkColor: true,
+    isDark: true,
     formats: {
       hex: '#2F5A8B',
       rgb: 'rgb(47,90,139)',
@@ -14,7 +14,7 @@ const colors = [
     id: 'yellow',
     name: 'Yellow',
     type: 'primary',
-    isDarkColor: false,
+    isDark: false,
     formats: {
       hex: '#EEBC32',
       rgb: 'rgb(238,188,50)',
@@ -25,7 +25,7 @@ const colors = [
     id: 'green',
     name: 'Green',
     type: 'primary',
-    isDarkColor: true,
+    isDark: true,
     formats: {
       hex: '#327A5F',
       rgb: 'rgb(50,122,95)',
@@ -36,7 +36,7 @@ const colors = [
     id: 'black',
     name: 'Black',
     type: 'secondary',
-    isDarkColor: true,
+    isDark: true,
     formats: {
       hex: '#261F1D',
       rgb: 'rgb(38,31,29)',
@@ -47,7 +47,7 @@ const colors = [
     id: 'white',
     name: 'White',
     type: 'secondary',
-    isDarkColor: false,
+    isDark: false,
     formats: {
       hex: '#FFFCF7',
       rgb: 'rgb(255,252,247)',
@@ -58,7 +58,7 @@ const colors = [
     id: 'light-grey',
     name: 'Light Grey',
     type: 'secondary',
-    isDarkColor: false,
+    isDark: false,
     formats: {
       hex: '#E1E3E0',
       rgb: 'rgb(255,227,224)',
@@ -69,7 +69,7 @@ const colors = [
     id: 'dark-grey',
     name: 'Dark Grey',
     type: 'secondary',
-    isDarkColor: false,
+    isDark: false,
     formats: {
       hex: '#B3BBB0',
       rgb: 'rgb(179,187,176)',
@@ -80,7 +80,7 @@ const colors = [
     id: 'orange',
     name: 'Orange',
     type: 'system',
-    isDarkColor: false,
+    isDark: false,
     formats: {
       hex: '#EF541E',
       rgb: 'rgb(239,84,30)',
@@ -91,7 +91,7 @@ const colors = [
     id: 'red',
     name: 'Red',
     type: 'system',
-    isDarkColor: true,
+    isDark: true,
     formats: {
       hex: '#C92929',
       rgb: 'rgb(201,41,41)',

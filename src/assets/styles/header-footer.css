@@ -1,0 +1,30 @@
+header {
+  background-color: var(--marcyBlue);
+  color: var(--marcyWhite);
+  text-align: right;
+  padding: 0.1rem 0.5rem;
+  border-bottom: 1px solid var(--marcyWhite);
+}
+
+h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+footer {
+  color: var(--marcyWhite);
+  text-align: center;
+  padding: 0.1rem 0.5rem;
+}
+
+#repo-link {
+  color: var(--marcyWhite);
+}
+
+#repo-link:hover {
+  color: var(--marcyOrange);
+}
+
+#repo-link:active {
+  color: var(--marcyRed);
+}
