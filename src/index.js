@@ -8,7 +8,6 @@ const main = () => {
   preloadFonts();
 
   const mainEl = document.querySelector('main');
-
   makeForm(colors, mainEl);
   makeColorListCards(colors, mainEl);
 };
