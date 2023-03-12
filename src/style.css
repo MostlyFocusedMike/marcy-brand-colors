@@ -192,3 +192,21 @@ h2, h3 {
 .light-card {
   --textColor: var(--marcyBlack);
 }
+
+footer {
+  color: var(--marcyWhite);
+  text-align: center;
+  padding: 0.1rem 0.5rem;
+}
+
+#repo-link {
+  color: var(--marcyWhite);
+}
+
+#repo-link:hover {
+  color: var(--marcyOrange);
+}
+
+#repo-link:active {
+  color: var(--marcyRed);
+}
