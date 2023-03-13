@@ -9,6 +9,7 @@ form {
   justify-content: space-between;
   align-items: center;
   background-color: var(--marcyLightGray);
+  border: 0.25rem solid #000;
 }
 
 label, input, select {
@@ -21,7 +22,7 @@ legend {
 
 select {
   background-color: var(--marcyWhite);
-  border: 3px solid var(--marcyBlack);
+  border: 3px solid #000;
   -webkit-border-radius: 0px;
   border-radius: 0px;
   line-height: 1.5em;
@@ -55,7 +56,8 @@ fieldset {
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 7px 7px 8px rgba(0, 0, 0, 0.25);
+  border: 0.5rem solid #000;
+  /* box-shadow: 7px 7px 8px rgba(0, 0, 0, 0.25); */
 }
 
 #background-result h2 {
